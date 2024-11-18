@@ -1,0 +1,143 @@
+body {
+  font-family: "cursive";
+  background-image: url(https://sotni.ru/wp-content/uploads/2023/08/nebo-s-oblakami-170.webp);
+  color: #00008B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin: 50px;
+}
+
+.header__avatar {
+    border-radius: 70%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.header__title {
+  margin: 0px 0 px 0;
+  font-size: 50px;
+  line-height: 1.0;
+  font-family: "cursive";
+}
+
+.header__subtitle {
+  color: #0000CD;
+  font-size: 30px;
+  line-height: 0;
+  margin: 0px, 50px;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 100px;
+}
+
+.links__header {
+  font-family: "cursive";
+  font-size: 30px;
+  color: #1E90FF;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+}
+
+.links__container {
+  background-color: #87CEEB;
+  list-style-type: none;
+  border: 2px solid hsl(245, 100%, 50%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+}
+
+.links__container {
+  background-color: #87CEEB;
+  list-style-type: none;
+  border: 2px solid hsl(245, 100%, 50%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 20px 10px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.links__link,
+.links__title {
+  font-size: 15px;
+  font-size: 1.4;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid hsl(245, 100%, 50%);
+  width: 280px;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #0969da;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 50px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #1E90FF;
+  border: 1px solid rgba(27, 31, 36, 0.15);
+  border-radius: 5px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #F0FFFF;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #00008B;
+  color: #00FFFF;
+  box-shadow: 0 1px 0 rgb(8, 11, 122);
+}
